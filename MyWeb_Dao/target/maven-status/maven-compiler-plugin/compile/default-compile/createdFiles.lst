@@ -1,0 +1,6 @@
+cn\edu\hfuu\MyWeb\MyWeb_Dao\domain\User.class
+cn\edu\hfuu\MyWeb\MyWeb_Dao\IUserDao.class
+cn\edu\hfuu\MyWeb\MyWeb_Dao\domain\Accounts.class
+cn\edu\hfuu\MyWeb\MyWeb_Dao\imp\Accountsimp.class
+cn\edu\hfuu\MyWeb\MyWeb_Dao\imp\UserImp.class
+cn\edu\hfuu\MyWeb\MyWeb_Dao\IAccountsDao.class

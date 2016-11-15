@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>QueryStock</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/QueryStock.js"></script>
+</head>
+
+股票编号<input type="text"id="Stocknumber">
+<button id="query">查询</button><h5>(例：sh600654)</h5>
+<table class="table table-bordered" id="accounts">
+    <thead>
+    <tr role="row" id="tr">
+        <th class="sorting" align="left">股票编号</th>
+        <th class="sorting" align="left">股票名称</th>
+        <th class="sorting" align="left">当前价格</th>
+        <th class="sorting" align="left">昨日收盘价</th>
+        <th class="sorting" align="left">今日最高价</th>
+        <th class="sorting" align="left">今日最低价</th>
+        <th class="sorting" align="left">成交量</th>
+        <th class="sorting" align="left">日期</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<img  id="imgminurl">
+<img  id="imgdayurl"><br>
+<img  id="imgweekurl">
+<img  id="imgmonthurl"><br>
+</body>
+</html>

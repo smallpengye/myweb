@@ -1,0 +1,4 @@
+cn\edu\hfuu\MyWeb\MyWeb_Service\IStockquery.class
+cn\edu\hfuu\MyWeb\MyWeb_Service\IUserService.class
+cn\edu\hfuu\MyWeb\MyWeb_Service\imp\Stockqueryimp.class
+cn\edu\hfuu\MyWeb\MyWeb_Service\imp\UserServiceimp.class

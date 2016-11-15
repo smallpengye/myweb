@@ -1,0 +1,11 @@
+cn\edu\hfuu\MyWeb\MyWeb_Web\request\StockRequest.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\request\LoginRequest.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\controller\BaseController.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\response\Response.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\request\InformationRequest.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\response\StockResponse.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\controller\MainController.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\response\LoginResponse.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\request\Request.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\response\InformationResponse.class
+cn\edu\hfuu\MyWeb\MyWeb_Web\Myview\MyView.class

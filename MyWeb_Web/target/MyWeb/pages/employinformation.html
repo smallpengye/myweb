@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+    <title>员工档案</title>
+
+    <!--<link href="css/bootstrap.min.css?v=3.4.0" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css?v=4.3.0" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+   <link href="css/style.css?v=2.2.0" rel="stylesheet">-->
+    <link href="mycss/mystyle.css" rel="stylesheet" type="text/css">
+	<link href="css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/plugins/jsTree/style.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   <div class="outmostlayer">
+    <!--左边框-->
+	 <div class="ibox-title">
+       <h2>员工档案管理</h2>
+	  </div>
+     <div class="leftstyle">
+	    <div class="leftstyle-top">
+		 
+		  <!--<div class="smallbox">
+	        <h2>员工档案</h2>
+		  </div>-->
+		  <div class="smallbutton">
+			<div class="smallbuttonleft">
+		      <input type="text" placeholder="查找员工" style="height:32px;width:100%;font-size:15px;">
+			</div>
+			<div class="samllbuttoncenter">
+			 <span class="input-group-btn">
+            <button type="button" class="btn btn btn-primary"> <i class="fa fa-search"></i> 搜索</button>
+             </span>
+		 
+            </div>
+			<div class="smallbuttonright">
+			     <span class="input-group-btn">
+                <button type="button" class="btn btn btn-primary"> <i class="fa fa-search"></i> 添加</button>
+               </span>
+			</div>
+		  </div> 
+	   </div>
+	   
+	   <div class="leftstyle-mid">
+		<!-- <div class="table">-->
+		  <table width="100%" class="table table-striped table-bordered table-hover dataTables-example dataTable" rules="rows">		  
+             <thead>
+               <tr role="row">
+	            <th class="sorting" align="left">姓名</th>
+	            <th class="sorting" align="left">工号</th>
+	            <th class="sorting" align="left">系统编号</th>
+	            <th class="sorting" align="left">进厂日期</th>
+				<th class="sorting" align="left">操作</th>
+	          </tr>
+             </thead>
+             <tbody>
+              <tr>
+                  <td>Tiger Nixon</td>
+                  <td>System Arcadfadfadfadft</td>
+                  <td>61</td>
+                  <td>2011/04/25</td>
+				  <td><a href="">修改</a> <a href="">  删除</a></td>
+                
+              </tr>
+              <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td><a href="">修改</a> <a href="">  删除</a></td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+                
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+               
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                
+                <td>Tokyo</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td><a href="">修改</a> <a href="">  删除</a></td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                
+                <td>New York</td>
+                <td>61</td>
+                <td>2012/12/02</td>
+                <td><a href="">修改</a> <a href="">  删除</a></td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>Sales Assistant</td>               
+                <td>59</td>
+                <td>2012/08/06</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+             </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>Integration Specialist</td>
+                
+                <td>55</td>
+                <td>2010/10/14</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+               
+            </tr>
+            <tr>
+                <td>Colleen Hurst</td>
+                <td>Javascript Developer</td>
+               
+                <td>39</td>
+                <td>2009/09/15</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+            </tr>
+            <tr>
+                <td>Sonya Frost</td>
+                <td>Software Engineer</td>
+
+                <td>23</td>
+                <td>2008/12/13</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+            </tr>
+            <tr>
+                <td>Jena Gaines</td>
+                <td>Office Manager</td>
+                
+                <td>30</td>
+                <td>2008/12/19</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+                
+             </tr>
+             <tr>
+                <td>Quinn Flynn</td>
+                <td>Support Lead</td>
+               
+                <td>22</td>
+                <td>2013/03/03</td>
+                <td><a href="">修改</a> <a href="">  删除</a></td>
+             </tr>
+             <tr>
+                <td>Charde Marshall</td>
+                <td>Regional Director</td>               
+                <td>36</td>
+                <td>2008/10/16</td>
+				<td><a href="">修改</a> <a href="">  删除</a></td>
+             </tr>
+           </tbody>
+		  
+         </table>
+		 <!--h+bootstrap中datables下面-->
+		 <div class="row">
+		   <div class="col-sm-6">
+		     <div aria-relevant="all" aria-live="polite" role="alert" id="editable_info" class="dataTables_info">显示 1 到 10 项，共 57 项</div>
+			   </div>
+			   <div class="col-sm-6">
+			    <div id="editable_paginate" class="dataTables_paginate paging_simple_numbers">
+			     <ul class="pagination">
+			      <li id="editable_previous" tabindex="0" aria-controls="editable" class="paginate_button previous disabled">
+			      <a href="#">上一页</a></li><li tabindex="0" aria-controls="editable" class="paginate_button active">
+			      <a href="#">1</a></li>
+				  <li tabindex="0" aria-controls="editable" class="paginate_button ">
+				  <a href="#">2</a></li>
+				  <li tabindex="0" aria-controls="editable" class="paginate_button ">
+				   <a href="#">3</a></li><li tabindex="0" aria-controls="editable" class="paginate_button "><a href="#">4</a></li>
+				   <li tabindex="0" aria-controls="editable" class="paginate_button ">
+				   <a href="#">5</a></li><li tabindex="0" aria-controls="editable" class="paginate_button "><a href="#">6</a></li>
+				  <li id="editable_next" tabindex="0" aria-controls="editable" class="paginate_button next"><a href="#">下一页</a></li></ul>
+				  </div>
+			 </div>
+			   </div>
+         <!-- </div>   --> 
+		 <!--个人资料-->
+	 </div>
+     </div>
+    <!-- <div class="rightstyle">
+	    <div class="pername">
+		<h2>姓名</h2>
+		</div>
+		
+	    <div class="image">
+		    <img alt="image" src="img/a2.jpg" width="200px" height="200px">
+		</div>  
+		<div class="personinf">
+	
+		</div>
+	 </div>-->
+	<div class="rightstyle">	 
+
+      <div class="ibox-content">
+	      <div class="tab-content">
+             <div id="contact-1" class="tab-pane active">
+			   <div class="row m-b-lg">
+                  <div class="col-lg-4 text-center">
+                      <h1 align="left">姓名</h1>
+                  <div class="m-b-sm">
+                     <img  align="left" alt="image"  src="img/a2.jpg" width="100px" height="100px">
+                  </div>
+                </div>
+		       </div>
+	         </div>
+           </div> 								   
+	  </div>
+	 
+	  <div class="feed-activity-list">	                                   
+     		<div class="media-body ">
+    			<h3>工号:1233213213<h3>      
+			</div>   
+	  </div>
+	  <div class="feed-activity-list">
+	                            
+     		<div class="media-body ">
+    			<h3>系统编号: 1233213213<h3>      
+			</div>
+    
+	  </div>
+	  <div class="feed-activity-list">
+	                         
+     		<div class="media-body ">
+    			<h3>进厂日期: 1233213213<h3>      
+			</div>
+      </div>
+	 
+	  <div class="feed-activity-list">
+	                                  
+     		<div class="media-body ">
+    			<h3>部门: 会记 <h3>      
+			</div>
+     
+	  </div>
+	  <div class="feed-activity-list">
+	                         
+     		<div class="media-body ">
+    			<h3>职务:组长<h3>      
+		
+        </div>
+	  </div>
+	  <div class="feed-activity-list">
+	                               
+     		<div class="media-body ">
+    			<h3>组别: 13<h3>      
+	
+        </div>
+	  </div>
+	  <div class="feed-activity-list">
+	                                
+     		<div class="media-body ">
+    			<h3>员工绑定: 1233213213<h3>      
+			</div>
+     
+	  </div>
+	  <div class="feed-activity-list">	                              
+     		<div class="media-body ">
+    			<h3>工资类型:计件</h3>      
+			</div>
+	  </div>
+	  <div class="feed-activity-list">
+	    <div class="feed-element">                                
+     		<div class="media-body ">
+    			<h3>工资：2000<h3>      
+			</div>
+        </div>
+	  </div>
+      <!--资料的上半部分-->
+	  <div class="rightstyle-bottombox">
+	 <div class="rightstyle-bottom">
+	    <div class="rightstyle-bottomleft">
+		  <div class="rightstyle-bottomleftleft">
+	       <h4>性别</h3>
+		  </div>
+		  <div class="rightstyle-bottomleftright">
+		   <select class="form-control m-b" name="account">
+           <option>男</option>
+           <option>女</option>
+           </select>
+		  </div>
+		</div>
+		<div class="rightstyle-bottomright">
+		  <div class="rightstyle-bottomrightleft">
+	       <h4>婚姻状况</h4>
+		  </div>
+		  <div class="rightstyle-bottomrightright">
+		   <select class="form-control m-b" name="account">
+           <option >已婚</option>
+           <option>未婚</option>
+           </select>
+		  </div>
+		</div>
+	     <div class="rightstyle-bottomleft">
+		  <div class="rightstyle-bottomleftleft">
+	       <h4>民族</h4>
+		  </div>
+		  <div class="rightstyle-bottomleftright">
+		   <h4>汉</h4>      
+		  </div>
+		</div>
+		<div class="rightstyle-bottomright">
+		  <div class="rightstyle-bottomrightleft">
+	       <h4>学历</h4>
+		  </div>
+		  <div class="rightstyle-bottomrightright">
+		   <select class="form-control m-b" name="account">
+           <option >小学</option>
+           <option>中学</option>
+		   <option>高中</option>
+		   <option>大专</option>
+		   <option>中专</option>
+		   <option>本科</option>
+		   <option>硕士</option>
+		   <option>博士</option>
+           </select>
+		  </div>
+		</div>
+		  
+		
+		 <div class="rightstyle-bottomleft">
+		  <div class="rightstyle-bottomleftleft">
+	       <h4>出生日期</h3>
+		  </div>
+		  <div class="rightstyle-bottomleftright">
+		    <h4>  2008/10/16</h4>
+		  </div>
+		</div>
+		<div class="rightstyle-bottomright">
+		  <div class="rightstyle-bottomrightleft">
+	       <h4>是否在职</h4>
+		  </div>
+		  <div class="rightstyle-bottomrightright">
+		   <select class="form-control m-b" name="account">
+           <option >不在职</option>
+           <option>在职</option>
+           </select>
+		  </div>
+		</div>
+	  </div>
+	  
+	 	  <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;开户银行:中国银行</h3>  
+		  </div>
+		   <div class="rightstyle-bottombox2">
+		 	<h3>&nbsp;&nbsp;银行卡号:123456789012345<h3>      
+		  </div>
+	
+	 <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;手机号787384928</h3>  
+		  </div>
+	
+	 <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;身份证号:34343434455567776533<h3>      
+		  </div>
+	
+	 <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;离职日期:2008/10/16</h3>  
+		  </div>
+	
+	 <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;地址：安徽省合肥市锦绣大道99号</h3>  
+		  </div>
+	
+	 <div class="rightstyle-bottombox2">
+		   <h3>&nbsp;&nbsp;备注:额外积分卡卡的首付款福建省的开发接收到空间啊房间看电视房间打开的进口附近啊了解到按揭款了多少级放假</h3>  
+		  </div>
+	
+	
+	  
+	  <!--
+	  <div class="rightstyle-bottombox2">
+		<div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>开户银行:中国银行<h3>      
+			</div>   
+	  </div>
+		 <div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>银行卡号:1233213213<h3>      
+			</div>   
+	  </div>
+	   <div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>手机号:1233213213<h3>      
+			</div>   
+	  </div>
+	   <div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>身份证号:34343434455567776533<h3>      
+			</div>   
+	  </div>
+	   <div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>离职日期:2008/10/16<h3>      
+			</div>   
+	  </div>
+	  
+	   <div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>地址：安徽省合肥市锦绣大道99号<h3>      
+			</div>   
+	  </div>
+		<div class="feed-activity-list">	                                   
+     		<div class="smallbox">
+    			<h3>备注:额外积分卡卡的首付款福建省的开发接收到空间啊房间看电视房间打开的进口附近啊了解到按揭款了多少级放假6<h3>      
+			</div>   
+	  </div>
+    </div>
+	
+	</div>-->
+ </div>
+</div>
+    <!-- 全局js -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js?v=3.4.0"></script>
+
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- 自定义js -->
+    <script src="js/content.js?v=1.0.0"></script>
+
+    <script>
+        $(function () {
+            $('.full-height-scroll').slimScroll({
+                height: '100%'
+            });
+        });
+    </script>
+
+</body>
+
+</html>

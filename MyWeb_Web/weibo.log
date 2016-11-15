@@ -1,0 +1,217 @@
+12883846 DEBUG [2016-11-03 15:25:23]  Invoking afterPropertiesSet() on bean with name 'myinformation'
+12883846 DEBUG [2016-11-03 15:25:23]  Invoking afterPropertiesSet() on bean with name 'myinformation.html'
+12883846 DEBUG [2016-11-03 15:25:23]  Returning [org.springframework.web.servlet.view.JstlView: name 'myinformation'; URL [pages/myinformation.html]] based on requested media type 'text/html'
+12883846 DEBUG [2016-11-03 15:25:23]  Rendering view [org.springframework.web.servlet.view.JstlView: name 'myinformation'; URL [pages/myinformation.html]] in DispatcherServlet with name 'super-accountant-mvc-servlet'
+12884010 DEBUG [2016-11-03 15:25:23]  Forwarding to resource [pages/myinformation.html] in InternalResourceView 'myinformation'
+12884011 DEBUG [2016-11-03 15:25:23]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/pages/myinformation.html]
+12884011 DEBUG [2016-11-03 15:25:23]  Looking up handler method for path /pages/myinformation.html
+12884012 DEBUG [2016-11-03 15:25:23]  Did not find handler method for [/pages/myinformation.html]
+12884012 DEBUG [2016-11-03 15:25:23]  Looking up handler method for path /pages/myinformation.html
+12884012 DEBUG [2016-11-03 15:25:23]  Did not find handler method for [/pages/myinformation.html]
+12884013 DEBUG [2016-11-03 15:25:23]  Matching patterns for request [/pages/myinformation.html] are [/**]
+12884013 DEBUG [2016-11-03 15:25:23]  URI Template variables for request [/pages/myinformation.html] are {}
+12884013 DEBUG [2016-11-03 15:25:23]  Mapping [/pages/myinformation.html] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12884013 DEBUG [2016-11-03 15:25:23]  Last-Modified value for [/pages/myinformation.html] is: -1
+12884014 DEBUG [2016-11-03 15:25:23]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12884014 DEBUG [2016-11-03 15:25:23]  Successfully completed request
+12884014 DEBUG [2016-11-03 15:25:23]  Successfully completed request
+12899148 DEBUG [2016-11-03 15:25:38]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/myinformation]
+12899148 DEBUG [2016-11-03 15:25:38]  Looking up handler method for path /myinformation
+12899149 DEBUG [2016-11-03 15:25:38]  Returning handler method [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.register(javax.servlet.http.HttpSession)]
+12899149 DEBUG [2016-11-03 15:25:38]  Returning cached instance of singleton bean 'mainController'
+12899149 DEBUG [2016-11-03 15:25:38]  Last-Modified value for [/myinformation] is: -1
+12899150 DEBUG [2016-11-03 15:25:38]  Requested media types is text/html (based on default MediaType)
+12899150 DEBUG [2016-11-03 15:25:38]  Requested media types are [text/html] based on Accept header types and producible media types [*/*])
+12899150 DEBUG [2016-11-03 15:25:38]  Returning [org.springframework.web.servlet.view.JstlView: name 'myinformation'; URL [pages/myinformation.html]] based on requested media type 'text/html'
+12899150 DEBUG [2016-11-03 15:25:38]  Rendering view [org.springframework.web.servlet.view.JstlView: name 'myinformation'; URL [pages/myinformation.html]] in DispatcherServlet with name 'super-accountant-mvc-servlet'
+12899151 DEBUG [2016-11-03 15:25:38]  Forwarding to resource [pages/myinformation.html] in InternalResourceView 'myinformation'
+12899151 DEBUG [2016-11-03 15:25:38]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/pages/myinformation.html]
+12899151 DEBUG [2016-11-03 15:25:38]  Looking up handler method for path /pages/myinformation.html
+12899152 DEBUG [2016-11-03 15:25:38]  Did not find handler method for [/pages/myinformation.html]
+12899152 DEBUG [2016-11-03 15:25:38]  Looking up handler method for path /pages/myinformation.html
+12899153 DEBUG [2016-11-03 15:25:38]  Did not find handler method for [/pages/myinformation.html]
+12899153 DEBUG [2016-11-03 15:25:38]  Matching patterns for request [/pages/myinformation.html] are [/**]
+12899153 DEBUG [2016-11-03 15:25:38]  URI Template variables for request [/pages/myinformation.html] are {}
+12899153 DEBUG [2016-11-03 15:25:38]  Mapping [/pages/myinformation.html] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12899153 DEBUG [2016-11-03 15:25:38]  Last-Modified value for [/pages/myinformation.html] is: -1
+12899154 DEBUG [2016-11-03 15:25:38]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12899154 DEBUG [2016-11-03 15:25:38]  Successfully completed request
+12899154 DEBUG [2016-11-03 15:25:38]  Successfully completed request
+12899907 DEBUG [2016-11-03 15:25:39]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/js/myinformation.js]
+12899907 DEBUG [2016-11-03 15:25:39]  Looking up handler method for path /js/myinformation.js
+12899908 DEBUG [2016-11-03 15:25:39]  Did not find handler method for [/js/myinformation.js]
+12899908 DEBUG [2016-11-03 15:25:39]  Looking up handler method for path /js/myinformation.js
+12899909 DEBUG [2016-11-03 15:25:39]  Did not find handler method for [/js/myinformation.js]
+12899909 DEBUG [2016-11-03 15:25:39]  Matching patterns for request [/js/myinformation.js] are [/**]
+12899909 DEBUG [2016-11-03 15:25:39]  URI Template variables for request [/js/myinformation.js] are {}
+12899909 DEBUG [2016-11-03 15:25:39]  Mapping [/js/myinformation.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12899909 DEBUG [2016-11-03 15:25:39]  Last-Modified value for [/js/myinformation.js] is: -1
+12899909 DEBUG [2016-11-03 15:25:39]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12899910 DEBUG [2016-11-03 15:25:39]  Successfully completed request
+12908035 DEBUG [2016-11-03 15:25:47]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/css/information.css]
+12908035 DEBUG [2016-11-03 15:25:47]  Looking up handler method for path /css/information.css
+12908036 DEBUG [2016-11-03 15:25:47]  Did not find handler method for [/css/information.css]
+12908036 DEBUG [2016-11-03 15:25:47]  Looking up handler method for path /css/information.css
+12908037 DEBUG [2016-11-03 15:25:47]  Did not find handler method for [/css/information.css]
+12908037 DEBUG [2016-11-03 15:25:47]  Matching patterns for request [/css/information.css] are [/**]
+12908037 DEBUG [2016-11-03 15:25:47]  URI Template variables for request [/css/information.css] are {}
+12908037 DEBUG [2016-11-03 15:25:47]  Mapping [/css/information.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12908037 DEBUG [2016-11-03 15:25:47]  Last-Modified value for [/css/information.css] is: -1
+12908037 DEBUG [2016-11-03 15:25:47]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12908037 DEBUG [2016-11-03 15:25:47]  Successfully completed request
+12908079 DEBUG [2016-11-03 15:25:47]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/js/myinformation.js]
+12908079 DEBUG [2016-11-03 15:25:47]  Looking up handler method for path /js/myinformation.js
+12908080 DEBUG [2016-11-03 15:25:47]  Did not find handler method for [/js/myinformation.js]
+12908080 DEBUG [2016-11-03 15:25:47]  Looking up handler method for path /js/myinformation.js
+12908081 DEBUG [2016-11-03 15:25:47]  Did not find handler method for [/js/myinformation.js]
+12908081 DEBUG [2016-11-03 15:25:47]  Matching patterns for request [/js/myinformation.js] are [/**]
+12908081 DEBUG [2016-11-03 15:25:47]  URI Template variables for request [/js/myinformation.js] are {}
+12908081 DEBUG [2016-11-03 15:25:47]  Mapping [/js/myinformation.js] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12908081 DEBUG [2016-11-03 15:25:47]  Last-Modified value for [/js/myinformation.js] is: -1
+12908082 DEBUG [2016-11-03 15:25:47]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12908082 DEBUG [2016-11-03 15:25:47]  Successfully completed request
+12911420 DEBUG [2016-11-03 15:25:50]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/favicon.ico]
+12911420 DEBUG [2016-11-03 15:25:50]  Looking up handler method for path /favicon.ico
+12911421 DEBUG [2016-11-03 15:25:50]  Did not find handler method for [/favicon.ico]
+12911421 DEBUG [2016-11-03 15:25:50]  Looking up handler method for path /favicon.ico
+12911422 DEBUG [2016-11-03 15:25:50]  Did not find handler method for [/favicon.ico]
+12911422 DEBUG [2016-11-03 15:25:50]  Matching patterns for request [/favicon.ico] are [/**]
+12911422 DEBUG [2016-11-03 15:25:50]  URI Template variables for request [/favicon.ico] are {}
+12911422 DEBUG [2016-11-03 15:25:50]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+12911422 DEBUG [2016-11-03 15:25:50]  Last-Modified value for [/favicon.ico] is: -1
+12911422 DEBUG [2016-11-03 15:25:50]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12911423 DEBUG [2016-11-03 15:25:50]  Successfully completed request
+12911487 DEBUG [2016-11-03 15:25:50]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/myinformation1]
+12911487 DEBUG [2016-11-03 15:25:50]  Looking up handler method for path /myinformation1
+12911488 DEBUG [2016-11-03 15:25:50]  Returning handler method [public java.lang.Object cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.myinformation1(javax.servlet.http.HttpSession,cn.edu.hfuu.MyWeb.MyWeb_Web.request.InformationRequest)]
+12911488 DEBUG [2016-11-03 15:25:50]  Returning cached instance of singleton bean 'mainController'
+12911553 DEBUG [2016-11-03 15:25:51]  Written [cn.edu.hfuu.MyWeb.MyWeb_Web.response.Response@2346d62a] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@6ad1bbc]
+12911554 DEBUG [2016-11-03 15:25:51]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+12911554 DEBUG [2016-11-03 15:25:51]  Successfully completed request
+13371431 DEBUG [2016-11-03 15:33:30]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/upload.html]
+13371589 DEBUG [2016-11-03 15:33:31]  Found multipart file [file] of size 0 bytes with original filename [], stored in memory
+13371592 DEBUG [2016-11-03 15:33:31]  Looking up handler method for path /upload.html
+13371592 DEBUG [2016-11-03 15:33:31]  Returning handler method [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]
+13371592 DEBUG [2016-11-03 15:33:31]  Returning cached instance of singleton bean 'mainController'
+13371596 DEBUG [2016-11-03 15:33:31]  Requested media types are [text/html] based on Accept header types and producible media types [*/*])
+13371596 DEBUG [2016-11-03 15:33:31]  Invoking afterPropertiesSet() on bean with name 'fail'
+13371596 DEBUG [2016-11-03 15:33:31]  Invoking afterPropertiesSet() on bean with name 'fail.html'
+13371597 DEBUG [2016-11-03 15:33:31]  Invoking afterPropertiesSet() on bean with name 'fail'
+13371597 DEBUG [2016-11-03 15:33:31]  Invoking afterPropertiesSet() on bean with name 'fail.html'
+13371597 DEBUG [2016-11-03 15:33:31]  Returning [org.springframework.web.servlet.view.JstlView: name 'fail'; URL [pages/fail.html]] based on requested media type 'text/html'
+13371597 DEBUG [2016-11-03 15:33:31]  Rendering view [org.springframework.web.servlet.view.JstlView: name 'fail'; URL [pages/fail.html]] in DispatcherServlet with name 'super-accountant-mvc-servlet'
+13371609 DEBUG [2016-11-03 15:33:31]  Forwarding to resource [pages/fail.html] in InternalResourceView 'fail'
+13371627 DEBUG [2016-11-03 15:33:31]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/pages/fail.html]
+13371628 DEBUG [2016-11-03 15:33:31]  Request is already a MultipartHttpServletRequest - if not in a forward, this typically results from an additional MultipartFilter in web.xml
+13371628 DEBUG [2016-11-03 15:33:31]  Looking up handler method for path /pages/fail.html
+13371628 DEBUG [2016-11-03 15:33:31]  Did not find handler method for [/pages/fail.html]
+13371628 DEBUG [2016-11-03 15:33:31]  Looking up handler method for path /pages/fail.html
+13371629 DEBUG [2016-11-03 15:33:31]  Did not find handler method for [/pages/fail.html]
+13371629 DEBUG [2016-11-03 15:33:31]  Matching patterns for request [/pages/fail.html] are [/**]
+13371629 DEBUG [2016-11-03 15:33:31]  URI Template variables for request [/pages/fail.html] are {}
+13371629 DEBUG [2016-11-03 15:33:31]  Mapping [/pages/fail.html] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+13371630 DEBUG [2016-11-03 15:33:31]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13371630 DEBUG [2016-11-03 15:33:31]  Successfully completed request
+13371630 DEBUG [2016-11-03 15:33:31]  Cleaning up multipart file [file] with original filename [], stored in memory
+13371630 DEBUG [2016-11-03 15:33:31]  Successfully completed request
+13376279 DEBUG [2016-11-03 15:33:35]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/favicon.ico]
+13376279 DEBUG [2016-11-03 15:33:35]  Looking up handler method for path /favicon.ico
+13376280 DEBUG [2016-11-03 15:33:35]  Did not find handler method for [/favicon.ico]
+13376280 DEBUG [2016-11-03 15:33:35]  Looking up handler method for path /favicon.ico
+13376281 DEBUG [2016-11-03 15:33:35]  Did not find handler method for [/favicon.ico]
+13376281 DEBUG [2016-11-03 15:33:35]  Matching patterns for request [/favicon.ico] are [/**]
+13376281 DEBUG [2016-11-03 15:33:35]  URI Template variables for request [/favicon.ico] are {}
+13376281 DEBUG [2016-11-03 15:33:35]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+13376281 DEBUG [2016-11-03 15:33:35]  Last-Modified value for [/favicon.ico] is: -1
+13376281 DEBUG [2016-11-03 15:33:35]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13376281 DEBUG [2016-11-03 15:33:35]  Successfully completed request
+13376521 DEBUG [2016-11-03 15:33:36]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/myinformation1]
+13376521 DEBUG [2016-11-03 15:33:36]  Looking up handler method for path /myinformation1
+13376521 DEBUG [2016-11-03 15:33:36]  Returning handler method [public java.lang.Object cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.myinformation1(javax.servlet.http.HttpSession,cn.edu.hfuu.MyWeb.MyWeb_Web.request.InformationRequest)]
+13376521 DEBUG [2016-11-03 15:33:36]  Returning cached instance of singleton bean 'mainController'
+13376522 DEBUG [2016-11-03 15:33:36]  Written [cn.edu.hfuu.MyWeb.MyWeb_Web.response.Response@4097b126] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@6ad1bbc]
+13376522 DEBUG [2016-11-03 15:33:36]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13376523 DEBUG [2016-11-03 15:33:36]  Successfully completed request
+13376884 DEBUG [2016-11-03 15:33:36]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/favicon.ico]
+13376885 DEBUG [2016-11-03 15:33:36]  Looking up handler method for path /favicon.ico
+13376886 DEBUG [2016-11-03 15:33:36]  Did not find handler method for [/favicon.ico]
+13376886 DEBUG [2016-11-03 15:33:36]  Looking up handler method for path /favicon.ico
+13376886 DEBUG [2016-11-03 15:33:36]  Did not find handler method for [/favicon.ico]
+13376887 DEBUG [2016-11-03 15:33:36]  Matching patterns for request [/favicon.ico] are [/**]
+13376887 DEBUG [2016-11-03 15:33:36]  URI Template variables for request [/favicon.ico] are {}
+13376887 DEBUG [2016-11-03 15:33:36]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+13376887 DEBUG [2016-11-03 15:33:36]  Last-Modified value for [/favicon.ico] is: -1
+13376887 DEBUG [2016-11-03 15:33:36]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13376887 DEBUG [2016-11-03 15:33:36]  Successfully completed request
+13379850 DEBUG [2016-11-03 15:33:39]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/upload.html]
+13379850 DEBUG [2016-11-03 15:33:39]  Looking up handler method for path /upload.html
+13379851 DEBUG [2016-11-03 15:33:39]  Returning handler method [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]
+13379851 DEBUG [2016-11-03 15:33:39]  Returning cached instance of singleton bean 'mainController'
+13379851 DEBUG [2016-11-03 15:33:39]  Last-Modified value for [/upload.html] is: -1
+13379853 DEBUG [2016-11-03 15:33:39]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13379856 DEBUG [2016-11-03 15:33:39]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13379858 DEBUG [2016-11-03 15:33:39]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13379858 DEBUG [2016-11-03 15:33:39]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13379858 DEBUG [2016-11-03 15:33:39]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13379858 DEBUG [2016-11-03 15:33:39]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13379858 DEBUG [2016-11-03 15:33:39]  Successfully completed request
+13380508 DEBUG [2016-11-03 15:33:40]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/login123]
+13380508 DEBUG [2016-11-03 15:33:40]  Looking up handler method for path /login123
+13380508 DEBUG [2016-11-03 15:33:40]  Returning handler method [public java.lang.Object cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.login(javax.servlet.http.HttpSession,cn.edu.hfuu.MyWeb.MyWeb_Web.request.LoginRequest)]
+13380508 DEBUG [2016-11-03 15:33:40]  Returning cached instance of singleton bean 'mainController'
+13380598 DEBUG [2016-11-03 15:33:40]  Written [cn.edu.hfuu.MyWeb.MyWeb_Web.response.Response@b5a86e6] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@6ad1bbc]
+13380598 DEBUG [2016-11-03 15:33:40]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13380599 DEBUG [2016-11-03 15:33:40]  Successfully completed request
+13381403 DEBUG [2016-11-03 15:33:40]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing POST request for [/myinformation1]
+13381404 DEBUG [2016-11-03 15:33:40]  Looking up handler method for path /myinformation1
+13381404 DEBUG [2016-11-03 15:33:40]  Returning handler method [public java.lang.Object cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.myinformation1(javax.servlet.http.HttpSession,cn.edu.hfuu.MyWeb.MyWeb_Web.request.InformationRequest)]
+13381404 DEBUG [2016-11-03 15:33:40]  Returning cached instance of singleton bean 'mainController'
+13381405 DEBUG [2016-11-03 15:33:40]  Written [cn.edu.hfuu.MyWeb.MyWeb_Web.response.Response@295d10e4] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@6ad1bbc]
+13381405 DEBUG [2016-11-03 15:33:40]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13381405 DEBUG [2016-11-03 15:33:40]  Successfully completed request
+13381486 DEBUG [2016-11-03 15:33:40]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/favicon.ico]
+13381486 DEBUG [2016-11-03 15:33:40]  Looking up handler method for path /favicon.ico
+13381487 DEBUG [2016-11-03 15:33:40]  Did not find handler method for [/favicon.ico]
+13381487 DEBUG [2016-11-03 15:33:40]  Looking up handler method for path /favicon.ico
+13381488 DEBUG [2016-11-03 15:33:40]  Did not find handler method for [/favicon.ico]
+13381488 DEBUG [2016-11-03 15:33:40]  Matching patterns for request [/favicon.ico] are [/**]
+13381488 DEBUG [2016-11-03 15:33:40]  URI Template variables for request [/favicon.ico] are {}
+13381488 DEBUG [2016-11-03 15:33:40]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+13381488 DEBUG [2016-11-03 15:33:40]  Last-Modified value for [/favicon.ico] is: -1
+13381489 DEBUG [2016-11-03 15:33:40]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13381489 DEBUG [2016-11-03 15:33:40]  Successfully completed request
+13381730 DEBUG [2016-11-03 15:33:41]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/favicon.ico]
+13381730 DEBUG [2016-11-03 15:33:41]  Looking up handler method for path /favicon.ico
+13381731 DEBUG [2016-11-03 15:33:41]  Did not find handler method for [/favicon.ico]
+13381731 DEBUG [2016-11-03 15:33:41]  Looking up handler method for path /favicon.ico
+13381732 DEBUG [2016-11-03 15:33:41]  Did not find handler method for [/favicon.ico]
+13381732 DEBUG [2016-11-03 15:33:41]  Matching patterns for request [/favicon.ico] are [/**]
+13381732 DEBUG [2016-11-03 15:33:41]  URI Template variables for request [/favicon.ico] are {}
+13381732 DEBUG [2016-11-03 15:33:41]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6b4ca849] and 1 interceptor
+13381732 DEBUG [2016-11-03 15:33:41]  Last-Modified value for [/favicon.ico] is: -1
+13381732 DEBUG [2016-11-03 15:33:41]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13381732 DEBUG [2016-11-03 15:33:41]  Successfully completed request
+13391283 DEBUG [2016-11-03 15:33:50]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/upload.html]
+13391283 DEBUG [2016-11-03 15:33:50]  Looking up handler method for path /upload.html
+13391284 DEBUG [2016-11-03 15:33:50]  Returning handler method [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]
+13391284 DEBUG [2016-11-03 15:33:50]  Returning cached instance of singleton bean 'mainController'
+13391284 DEBUG [2016-11-03 15:33:50]  Last-Modified value for [/upload.html] is: -1
+13391285 DEBUG [2016-11-03 15:33:50]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13391285 DEBUG [2016-11-03 15:33:50]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13391285 DEBUG [2016-11-03 15:33:50]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13391285 DEBUG [2016-11-03 15:33:50]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13391285 DEBUG [2016-11-03 15:33:50]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13391286 DEBUG [2016-11-03 15:33:50]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13391286 DEBUG [2016-11-03 15:33:50]  Successfully completed request
+13404424 DEBUG [2016-11-03 15:34:03]  DispatcherServlet with name 'super-accountant-mvc-servlet' processing GET request for [/upload.html]
+13404424 DEBUG [2016-11-03 15:34:03]  Looking up handler method for path /upload.html
+13404425 DEBUG [2016-11-03 15:34:03]  Returning handler method [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]
+13404425 DEBUG [2016-11-03 15:34:03]  Returning cached instance of singleton bean 'mainController'
+13404425 DEBUG [2016-11-03 15:34:03]  Last-Modified value for [/upload.html] is: -1
+13404426 DEBUG [2016-11-03 15:34:03]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13404426 DEBUG [2016-11-03 15:34:03]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13404426 DEBUG [2016-11-03 15:34:03]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13404426 DEBUG [2016-11-03 15:34:03]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13404426 DEBUG [2016-11-03 15:34:03]  Resolving exception from handler [public java.lang.String cn.edu.hfuu.MyWeb.MyWeb_Web.controller.MainController.updata(java.lang.String,org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.lang.Exception]: org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'name' is not present
+13404426 DEBUG [2016-11-03 15:34:03]  Null ModelAndView returned to DispatcherServlet with name 'super-accountant-mvc-servlet': assuming HandlerAdapter completed request handling
+13404426 DEBUG [2016-11-03 15:34:03]  Successfully completed request

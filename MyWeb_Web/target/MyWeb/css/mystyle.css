@@ -1,0 +1,35 @@
+
+.outmostlayer{
+    background-size:auto;
+    background-image: url(../img/1.jpg);
+    margin:auto;
+    background-color:#F3F3F4;
+    width:auto;
+    padding:10px;
+    height:720px;
+}
+.loginindex{
+    max-width: 30%;
+    height:  500px;
+    top: 50px;
+    margin: auto;
+}
+.loginname{
+    color:#F3F3F4 ;
+    margin: auto;
+    max-width: 60%;
+    height: 80px;
+
+}
+.loginname-middle{
+    max-width:68%;
+    height: 80px;
+    align: left;
+
+}
+
+.loginname-Popup{
+    max-width: 32%;
+    height: 80px;
+align:right;
+}
